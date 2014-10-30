@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000 url(../images/dark_hardwood.jpg) repeat;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 100%;
+    padding-bottom: 30%;
+}
+img { 
+	max-width: 100%; 
+}
+td {
+    font-size: .9em;
+    padding: 1% 0;
+}
+.success {
+    background: #090;
+    color: #FFF;
+    margin: 1em 0;
+    padding: 1.5%;
+}
+.error {
+    background: #c00;
+    color: #FFF;
+    margin: 1em 0;
+    padding: 1.5%;
+}
+
+/* Containers */
+
+.main-container { 
+	padding: 3% 3% 15%; 
+}
+.responsive-container {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+.responsive-container iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.single-island { 
+	margin: 4% 3%; 
+}
+
+/* Headings */
+
+h2 {
+    font-family: Calibri;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+.page-title { 
+	font-size: 1.7em; 
+}
+.list-title {
+    clear: both;
+    font-size: 1.1em;
+    margin: 1.5%;
+    text-align: center;
+}
+.subtitle {
+    font-size: 1.3em;
+    margin: .8em 0 .6em;
+}
+.button-group-title {
+    clear: both;
+    margin: 1.5% 0 0 3%;
+    padding-top: 3%;
+}
+.profile-about {
+    float: left;
+    padding: 4% 0 1%;
+}
+
+/* Forms */
+
+form { 
+	margin-top: 1em; 
+}
+.form-item {
+    background-color: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #FFF;
+    font-family: Calibri;
+    font-size: 105%;
+    margin-bottom: 1.1em;
+    padding: 2%;
+    width: 96%;
+}
+.form-checkbox {
+    float: left;
+    height: 1em;
+    width: 1em;
+}
+.form-select {
+    color: #999;
+    width: 100%;
+}
+.form-submit {
+    background-color: #c00;
+    border: 1px solid #c00;
+    color: #FFF;
+    text-decoration: none;
+    width: 100%;
+}
+.privacy-row {
+    color: #ccc;
+    font-size: .9em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+.privacy-row .private { 
+	margin-left: 5%; 
+}
+.checkbox-label {
+    color: #FFF;
+    padding-left: .5em;
+}
+::-webkit-input-placeholder { 
+	color: #999; 
+}
+
+/* Buttons */
+
+.player-button {
+    background: rgba(204,0,0,0.75);
+    color: #FFF;
+    float: left;
+    font-size: .8em;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    width: 44.5%;
+}
+.wide-button {
+    background-color: #069;
+    clear: both;
+    color: #FFF;
+    display: block;
+    font-family: Calibri;
+    margin: 3% 3% 0;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+.edit-button {
+    background: rgba(204,0,0,0.8);
+    color: #FFF;
+    float: left;
+    font-family: Calibri;
+    margin: 4% 3% 2%;
+    padding: 1% 4%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* List Menus */
+
+ul.list-menu { 
+	font-size: 100%; 
+}
+ul.list-menu li {
+    background-color: rgba(255,255,255,.1);
+    list-style: none;
+    margin-top: 1px;
+}
+ul.list-menu li a {
+    color: #FFF;
+    display: inline-block;
+    padding: 2%;
+    text-decoration: none;
+    width: 96%;
+}
+ul.list-menu li a span {
+    display: table;
+    font-size: .8em;
+}
+ul.list-menu li a .details {
+    color: #999;
+    display: inline;
+    font-size: .75em;
+    font-weight: 400;
+    padding-top: .25em;
+}
+ul.list-menu li a img {
+    float: left;
+    height: 2em;
+    padding-right: .5em;
+}
+ul.list-menu li a .message-icon {
+    float: left;
+    height: 2em;
+    padding-right: .75em;
+}
+ul.list-menu li a .message-category {
+    display: table;
+    font-size: .9em;
+    padding: .5em 0;
+}
+ul.list-menu li .first {
+    padding: 2%;
+    width: 76%;
+}
+ul.list-menu li .second {
+    background-color: #c00;
+    display: table;
+    float: right;
+    height: 2em;
+    margin: 2%;
+    padding: 0;
+    text-align: center;
+    width: 16%;
+}
+ul.list-menu li .second span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Button Menus */
+
+ul.button-menu {
+    font-size: .7em;
+    margin: 1.5%;
+}
+ul.button-menu li {
+    background-color: #444;
+    float: left;
+    list-style: none;
+    margin: 1.5%;
+    opacity: 1;
+    text-align: center;
+    width: 22%;
+}
+ul.button-menu li a {
+    color: #FFF;
+    display: block;
+    padding: 10% 0;
+    text-decoration: none;
+}
+ul.button-menu li a img { 
+	max-width: 50%;
+}
+ul.button-menu li a span {
+    display: block;
+    padding-top: 10%;
+}
+ul.bottom-menu {
+    bottom: 0;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+}
+ul.bottom-menu li {
+    background-color: #000;
+    border-bottom: 2px solid #000;
+    float: left;
+    list-style: none;
+    opacity: 0.8;
+    text-align: center;
+    width: 20%;
+}
+ul.bottom-menu .selected {
+    border-bottom: 2px solid #c00;
+    opacity: 1;
+}
+ul.bottom-menu li a {
+    display: block;
+    padding: 8% 0;
+    text-decoration: none;
+}
+ul.bottom-menu li a img {
+    max-height: 1.6em;
+    padding-top: .15em;
+}
